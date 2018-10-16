@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02-Features |Riot</title>
+</head>
+<body>
+    <h3>Riot Meetup</h3>
+    <!-- Place Riot tag inside the body-->
+    <features>
+        <h1>I'm Yield Content</h1>
+    </features>
+
+    <script src="features.tag" type="riot/tag"></script>
+
+    <!-- include riot.js -->
+    <script src="https://cdn.jsdelivr.net/npm/riot@3.12/riot+compiler.min.js"></script>
+
+    <!-- mount -->
+    <script>
+        var message = 'Hello, Riot!';
+
+        riot.mount('*');
+
+        setTimeout(() => {
+            riot.update("*")
+        }, 1000)
+
+        class I18n {
+
+            translate(arg) {
+                return "<(" + arg + ")>"
+            }
+
+        }
+
+        riot.mixin('I18n', I18n)
+    </script>
+</body>
+</html>

@@ -171,4 +171,4 @@ else:
 
 ---
 
-<iframe src="https://riot.js.org/examples/live-editor/"></iframe>
+<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://riot.js.org/examples/live-editor/"></iframe>

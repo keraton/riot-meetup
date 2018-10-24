@@ -1,6 +1,8 @@
-@title[Code Presenting]
-# Code
-# Presenting
+@title[Riot]
+# Riot
+
+![Riot Logo](https://riot.js.org/img/logo/riot240x.png)
+#### Bowie Brotosumpeno
 
 ---
 @title[Working With Code Blocks]

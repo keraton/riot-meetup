@@ -102,6 +102,34 @@
 
 ---
 
+### Fonctionnalités
+
+* JavaScript Expression évaluation
+    * Expression est défini entre deux accolades.
+* Condition
+    * Utilise l’attribut if qui prend une valeur truthy/falsy 
+    * Usage similaire avec show/hide
+* Boucle
+    * Utilise l’attribut each sur un object iterable (arrays)
+*   Tag virtuel
+    * Evalue la condition ou la boucle sans vraiment être affiché
+    
++++
+
+* Yield tag
+    * Permet d’injecter un contenu html dans un composant
+* DOM Events
+    * Mécanisme simple pour définir un callback à un élément
+* Les crochets (Hook)
+    * Permet d’intercepter/gérer le cycle de vie d’un tag
+    * *before-mount, mount, update, updated, before-unmount, unmount*
+* Les observables
+    * Mécanisme de pub/sub pour envoyer/recevoir des événements
+* Mixins
+    * Partager des fonctionnalités entre plusieurs tags
+
+---
+
 ### Riot rocks
 
 <iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://riot.js.org/examples/live-editor/"></iframe>

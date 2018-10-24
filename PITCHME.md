@@ -225,6 +225,13 @@
 
 ---
 
+## DEMO
+
+![Demo](https://github.com/keraton/riot-meetup/blob/master/Commitstrip-effetdemo.jpg?raw=true)
+
+
+---
+
 ### Riot a-t-il sa place ?
 
 * Riot comparé aux autres frameworks

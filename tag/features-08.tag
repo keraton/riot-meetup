@@ -1,5 +1,7 @@
 <features>
 
+    <h1>Observable</h1>
+
     <!-- Observable -->
     function Observable() {
         riot.observable(this)

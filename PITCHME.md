@@ -61,33 +61,26 @@
 
 ![logo](https://github.com/keraton/riot-meetup/blob/master/new_lib_again.png?raw=true)
 
-#### The Basics
+---
 
-![Press Down Key](assets/down-arrow.png)
+### Pourquoi Riot ?
 
-+++?code=src/python/time.py&lang=python
-@title[Sample Source File]
+* Parce qu’il est  simple !!! 
+    * Facile à appendre 
+    * Les syntaxes simples sans boilerplate
+    * Support ES6
 
-###### Code delimiters let you present any <p> **code file** with auto-syntax highlighting
+* Parce qu’il est petit 
+    * Seulement 10.8KB d’empreinte mémoire (gzip) (react ~ 33.2KB)
+    * Limité à la partie Vue
+    * Facilement intégrable
+    
+* Parce qu'il est complet
+    * Expression, Boucle, Condition etc.
 
 ---
-@title[Code-Delimiter Slides]
 
-### Code-Delimiter Slides
-##### Using
-#### **Code-Presenting**
-
-![Press Down Key](assets/down-arrow.png)
-
-+++?code=src/javascript/config.js&lang=javascript
-@title[Sample Code Presenting]
-
-@[1-3]
-@[5-8]
-@[10-16]
-@[18-24]
-
-###### Use code-presenting to **step-thru** code <p> from directly within your presentation 
+<iframe src="https://giphy.com/embed/1qdhsQBpvPIB33LXwO" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/empire-lee-daniels-empire-on-fox-1qdhsQBpvPIB33LXwO">via GIPHY</a></p>
 
 ---
 

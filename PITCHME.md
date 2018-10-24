@@ -84,25 +84,17 @@
 
 ---
 
-### Code-Delimiter Slides
-##### Using
-#### Code-Presenting
-#### **With Annotations**
+### Tag
 
-![Press Down Key](assets/down-arrow.png)
-
-+++?code=src/elixir/monitor.ex&lang=elixir
-@title[Sample With Annotations]
-
-@[11-14](Elixir module-attributes as constants)
-@[22-28](Elixir with-statement for conciseness)
-@[171-177](Elixir case-statement pattern matching)
-@[179-185](Elixir pipe-mechanism for composing functions)
+* Un tag Riot est simplement la combinaison de HTML, CSS et JavaScript
+* Pour que le tag soit utilisable, il doit être transpilé en JavaScript
+    * Actuellement Riot est supporté par : Webpack, Browerify, Gulp et aussi compilateur sous la navigateur.
+* Une fois compilé, le tag doit être enregistré. (riot.reg)
+* Le tag est prêt à être déployé (riot.mount)
 
 ---
 
-### Learn By Example
-#### View The [Presentation Markdown](https://github.com/gitpitch/code-presenting/blob/master/PITCHME.md)
+## DEMO
 
 ---
 

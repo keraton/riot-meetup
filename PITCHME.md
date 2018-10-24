@@ -183,4 +183,4 @@
 
 ### Riot rocks
 
-<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://raw.githubusercontent.com/keraton/riot-meetup/master/tag/live-editor.html"></iframe>
+<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html"></iframe>

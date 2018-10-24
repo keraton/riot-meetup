@@ -130,6 +130,50 @@
 
 ---
 
+### Application
+
+* Usage de multi tags 
+    * Hiérarchie / Sous-tags
+    * Accès aux tags parent/enfants
+* Les données
+    * Mount tags avec des données
+    * Passer des données via opts
+* Utilisation de Riot Observable  & Mixins pour faire de *l’event messaging*
+
+---
+
+### Riot a-t-il sa place ?
+
+* Riot comparé aux autres frameworks
+    * *React* : c’est aussi léger que React  mais sans le JSX
+    * *Vuejs* : la même encapsulation mais le développement est plus naturelle
+* Grace à sa simplicité 
+    * Développer un prototype rapidement
+    * Intégrer facilement avec des autres frameworks/applications existants
+* Riot chez Egencia
+    * Création des composants commun (UITK) pour l’ensemble des sites web Egenci
+
+---
+
+### Points à surveiller
+
+* Manque de popularité, d’exemple, tuto, ressources, adoption
+* En terme de performance, Riot pourrait avoir des inconvénients pour un projet de grand taille
+* Il n’y a pas de solution prédéfini pour les gestions des états
+* Cycle de release assez lent (mais Riot 4 arrive!!)
+
+
+---
+
+### Ressources
+
+* https://riot.js.org/ 
+* Building Apps with Riot by Ryan Lee; John Nolette; James Sparkman; Collin Green; Joseph Szczesnia Published by Bleeding Edge Press, 2018
+* https://www.npmjs.com/package/riot
+
+
+---
+
 ### Riot rocks
 
 <iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://riot.js.org/examples/live-editor/"></iframe>

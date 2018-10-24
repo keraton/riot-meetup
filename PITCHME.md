@@ -35,37 +35,16 @@
 ```
 ---
 
-### Code-Blocks
-##### Using
-#### Code-Presenting
-#### **With Annotations**
+### Dates et chiffres
 
-![Press Down Key](assets/down-arrow.png)
-
-+++
-@title[Sample With Annotations]
-
-```python
-from time import localtime
-
-activities = {8: 'Sleeping', 9: 'Commuting', 17: 'Working',
-              18: 'Commuting', 20: 'Eating', 22: 'Resting' }
-
-time_now = localtime()
-hour = time_now.tm_hour
-
-for activity_time in sorted(activities.keys()):
-    if hour < activity_time:
-        print activities[activity_time]
-        break
-else:
-    print 'Unknown, AFK or sleeping!'
-```
-
-@[1](Python from..import statement)
-@[3-4](Python dictionary initialization block)
-@[6-7](Python working with time)
-@[9-14](Python for..else statement)
+* Riot a été sortie en 2013 par Muut (https://muut.com)
+    * Riot v.2 en 2015
+    * Riot v.3 en 2016
+* Riot est un logiciel libre avec la licence MIT
+* Riot repository : https://github.com/riot/riot 
+    * 13K stars
+    * 169 contributeurs
+    * Toujours actif en développement
 
 ---
 @title[Working with Source Files]

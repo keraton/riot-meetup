@@ -15,18 +15,18 @@
     <script src="https://rawgit.com/riot/riot/master/riot%2Bcompiler.min.js"></script>
     <script>
       window.addEventListener('message', function(e) {
-        riot.compile(e.data)
-        riot.mount('features')
-      }, false)
+        riot.compile(e.data);
+        riot.mount('features');
+      }, false);
 
-      class I18n {
+      function I18n () {
 
-          translate(arg) {
+          this.translate = function(arg) {
               return "<(" + arg + ")>"
           }
       }
 
-      riot.mixin('I18n', I18n)
+      riot.mixin('I18n', I18n);
 
     </script>
   </body>

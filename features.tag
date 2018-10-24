@@ -16,11 +16,11 @@
     </ul>
 
     <!-- Virtual -->
-    <virtual if={false}>
-        <h1>Hide Me</h1>
-        <h1>Hide Me</h1>
-        <h1>Hide Me</h1>
-        <h1>Hide Me</h1>
+    <virtual if={true}>
+        <h5>Hide Me</h5>
+        <h5>Hide Me</h5>
+        <h5>Hide Me</h5>
+        <h5>Hide Me</h5>
     </virtual>
 
     <!-- Yield -->

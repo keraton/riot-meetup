@@ -23,21 +23,16 @@
 * C’est la partie Vue de MVC pattern
 * Riot est un composant web sous forme d’une balise personnalisable (tag)
 
-```HTML
-<!– Example of Riot Tag -->
+```
 <hello>    
     <h1>Hello mon nom est RiotJS</h1>
-
     <style>        
         h1 { font-size: 14px; }    
-    </style>
-        
+    </style>        
     <script>       
         console.log("Riot tag mounted")   
     </script>
 </hello>
-
-<!-- Usage -->
 <hello></hello>
 ```
 

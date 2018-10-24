@@ -17,15 +17,6 @@
 
 ---
 
-### Code-Blocks
-##### Using
-#### **Code-Presenting**
-
-![Press Down Key](assets/down-arrow.png)
-
-+++
-@title[Riot Quest que c'est]
-
 ### Riot qu’est que c’est ?
 
 * RiotJS est une librairie UI

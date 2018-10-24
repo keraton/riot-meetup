@@ -74,7 +74,9 @@
     * Seulement 10.8KB d’empreinte mémoire (gzip) (react ~ 33.2KB)
     * Limité à la partie Vue
     * Facilement intégrable
-    
+
++++
+
 * Parce qu'il est complet
     * Expression, Boucle, Condition etc.
 

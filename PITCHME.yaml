@@ -1,2 +1,2 @@
 theme : night
-theme-override : assets/css/PITCHME.css
+theme-override : https://raw.githubusercontent.com/keraton/riot-meetup/master/assets/css/custom.css

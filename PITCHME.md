@@ -24,29 +24,31 @@
 ![Press Down Key](assets/down-arrow.png)
 
 +++
-@title[Sample Code Presenting]
+@title[Riot Quest que c'est]
 
-```python
-from time import localtime
+### Riot qu’est que c’est ?
 
-activities = {8: 'Sleeping', 9: 'Commuting', 17: 'Working',
-              18: 'Commuting', 20: 'Eating', 22: 'Resting' }
+* RiotJS est une librairie UI
+* C’est la partie Vue de MVC pattern
+* Riot est un composant web sous forme d’une balise personnalisable (tag)
 
-time_now = localtime()
-hour = time_now.tm_hour
+```HTML
+<!– Example of Riot Tag -->
+<hello>    
+    <h1>Hello mon nom est RiotJS</h1>
 
-for activity_time in sorted(activities.keys()):
-    if hour < activity_time:
-        print activities[activity_time]
-        break
-else:
-    print 'Unknown, AFK or sleeping!'
+    <style>        
+        h1 { font-size: 14px; }    
+    </style>
+        
+    <script>       
+        console.log("Riot tag mounted")   
+    </script>
+</hello>
+
+<!-- Usage -->
+<hello></hello>
 ```
-
-@[1]
-@[3-4]
-@[6-7]
-@[9-14]
 
 ###### Use code-presenting to **step-thru** code <p> from directly within your presentation 
 

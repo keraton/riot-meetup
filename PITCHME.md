@@ -26,12 +26,9 @@
 ```
 <hello>    
     <h1>Hello mon nom est RiotJS</h1>
-    <style>        
-        h1 { font-size: 14px; }    
-    </style>        
-    <script>       
-        console.log("Riot tag mounted")   
-    </script>
+    <style>h1 { font-size: 14px; }</style>        
+    
+    <script> console.log("Riot tag mounted")</script>
 </hello>
 
 <hello></hello>

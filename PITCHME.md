@@ -111,15 +111,18 @@
     * Usage similaire avec show/hide
 * Boucle
     * Utilise l’attribut each sur un object iterable (arrays)
-*   Tag virtuel
-    * Evalue la condition ou la boucle sans vraiment être affiché
     
 +++
 
+* Tag virtuel
+    * Evalue la condition ou la boucle sans vraiment être affiché
 * Yield tag
     * Permet d’injecter un contenu html dans un composant
 * DOM Events
     * Mécanisme simple pour définir un callback à un élément
+
++++
+
 * Les crochets (Hook)
     * Permet d’intercepter/gérer le cycle de vie d’un tag
     * *before-mount, mount, update, updated, before-unmount, unmount*
@@ -127,6 +130,7 @@
     * Mécanisme de pub/sub pour envoyer/recevoir des événements
 * Mixins
     * Partager des fonctionnalités entre plusieurs tags
+
 
 ---
 
@@ -146,12 +150,15 @@
 
 * Riot comparé aux autres frameworks
     * *React* : c’est aussi léger que React  mais sans le JSX
-    * *Vuejs* : la même encapsulation mais le développement est plus naturelle
+    * *Vuejs* : la même encapsulation mais moins syntaxique
 * Grace à sa simplicité 
     * Développer un prototype rapidement
     * Intégrer facilement avec des autres frameworks/applications existants
+    
++++
+
 * Riot chez Egencia
-    * Création des composants commun (UITK) pour l’ensemble des sites web Egenci
+    * Evaluation Riot pour les composants commun (UITK) pour l’ensemble des sites web Egenci
 
 ---
 

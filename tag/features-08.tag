@@ -11,7 +11,5 @@
 
     window.obs.on('fire', () => alert('Fire'))
 
-    setTimeout(() => obs.trigger('fire'), 3000)
-
 
 </features>

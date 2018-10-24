@@ -19,6 +19,14 @@
         riot.mount('features')
       }, false)
 
+      class I18n {
+
+          translate(arg) {
+              return "<(" + arg + ")>"
+          }
+      }
+
+      riot.mixin('I18n', I18n)
 
     </script>
   </body>

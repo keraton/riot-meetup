@@ -15,9 +15,6 @@
 
 ![logo](https://github.com/keraton/riot-meetup/blob/master/egencia-expedia.png?raw=true)
 
-
-![Press Down Key](assets/down-arrow.png)
-
 ---
 
 ### Code-Blocks

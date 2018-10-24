@@ -47,11 +47,13 @@
     * Toujours actif en développement
 
 ---
-@title[Working with Source Files]
 
-### Naturally
-### Code-Presenting
-### works in exactly the same way on [Code-Delimiter Slides](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides) as it does on [Code-Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides).
+### NPM Package
+
+* https://www.npmjs.com/package/riot
+* Progrès constant sur les téléchargements
+
+![logo](https://github.com/keraton/riot-meetup/blob/master/npm-download.png?raw=true)
 
 ---
 @title[Code Delimiter Syntax]

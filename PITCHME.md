@@ -1,3 +1,6 @@
+
+theme-override : assets/css/PITCHME.css
+
 @title[Riot]
 
 ![logo](https://riot.js.org/img/logo/riot240x.png)

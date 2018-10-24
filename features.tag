@@ -42,15 +42,15 @@
     this.on("mount", () => console.log("mounted"))
     this.on("update", () => console.log("updated"))
 
+    <!-- Observable -->
     function Observable() {
 
-        riot.observable(this)
+    riot.observable(this)
     }
 
-    <!-- Observable -->
     var obs = new Observable();
 
-    obs.on('fire', () => console.log('Fire'))
+    obs.on('fire', () => alert('Fire'))
 
     setTimeout(() => obs.trigger('fire'), 3000)
 

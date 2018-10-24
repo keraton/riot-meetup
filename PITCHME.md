@@ -106,72 +106,99 @@
 
 * JavaScript Expression évaluation
     * Expression est défini entre deux accolades.
+
++++
+### Expression
         
 <iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=01"></iframe>
 
-+++
+---
 
 * Condition
     * Utilise l’attribut if qui prend une valeur truthy/falsy 
     * Usage similaire avec show/hide
+
++++
+### Condition
     
 <iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=02"></iframe>
 
-+++
+---
     
 * Boucle
     * Utilise l’attribut each sur un object iterable (arrays)
+
++++
+### Boucle
+
     
 <iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=03"></iframe>
     
-+++
+---
 
 * Tag virtuel
     * Evalue la condition ou la boucle sans vraiment être affiché
+
++++
+### Virtual Tag
+
     
 <iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=04"></iframe>
 
 
-+++
+---
 
 * Yield tag
     * Permet d’injecter un contenu html dans un composant
+
++++
+### Yield Tag
+
     
 <iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=05"></iframe>
 
-+++
+---
 
 * DOM Events
     * Mécanisme simple pour définir un callback à un élément
     
++++
+### DOM Event
+
+
 <iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=06"></iframe>
 
-+++
+---
 
 * Les crochets (Hook)
     * Permet d’intercepter/gérer le cycle de vie d’un tag
     * *before-mount, mount, update, updated, before-unmount, unmount*
 
++++
+### Hook
+
+
 <iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=07"></iframe>
 
-+++
+---
 
 * Les observables
     * Mécanisme de pub/sub pour envoyer/recevoir des événements
     
-
++++
+### Observable
 
 <iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=08"></iframe>
 
-+++
+---
  
 * Mixins
     * Partager des fonctionnalités entre plusieurs tags
     
++++
+### Mixins
 
 <iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=09"></iframe>
-
-
 
 ---
 

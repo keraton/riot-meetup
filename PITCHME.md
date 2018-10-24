@@ -33,12 +33,9 @@
         console.log("Riot tag mounted")   
     </script>
 </hello>
+
 <hello></hello>
 ```
-
-###### Use code-presenting to **step-thru** code <p> from directly within your presentation 
-
-
 ---
 
 ### Code-Blocks

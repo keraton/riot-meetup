@@ -106,30 +106,72 @@
 
 * JavaScript Expression évaluation
     * Expression est défini entre deux accolades.
+        
+
+<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=01"></iframe>
+
++++
+
 * Condition
     * Utilise l’attribut if qui prend une valeur truthy/falsy 
     * Usage similaire avec show/hide
+    
+<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=02"></iframe>
+
++++
+    
 * Boucle
     * Utilise l’attribut each sur un object iterable (arrays)
+    
+<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=03"></iframe>
     
 +++
 
 * Tag virtuel
     * Evalue la condition ou la boucle sans vraiment être affiché
+    
+<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=04"></iframe>
+
+
++++
+
 * Yield tag
     * Permet d’injecter un contenu html dans un composant
+    
+<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=05"></iframe>
+
++++
+
 * DOM Events
     * Mécanisme simple pour définir un callback à un élément
+    
+<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=06"></iframe>
 
 +++
 
 * Les crochets (Hook)
     * Permet d’intercepter/gérer le cycle de vie d’un tag
     * *before-mount, mount, update, updated, before-unmount, unmount*
+
+<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=07"></iframe>
+
++++
+
 * Les observables
     * Mécanisme de pub/sub pour envoyer/recevoir des événements
+    
+
+
+<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=08"></iframe>
+
++++
+ 
 * Mixins
     * Partager des fonctionnalités entre plusieurs tags
+    
+
+<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=09"></iframe>
+
 
 
 ---
@@ -177,59 +219,4 @@
 * https://riot.js.org/ 
 * Building Apps with Riot by Ryan Lee; John Nolette; James Sparkman; Collin Green; Joseph Szczesnia Published by Bleeding Edge Press, 2018
 * https://www.npmjs.com/package/riot
-
-
----
-
-### Expression
-
-<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=01"></iframe>
-
----
-
-### Conditional
-
-<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=02"></iframe>
-
----
-
-### Conditional
-
-<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=03"></iframe>
-
----
-
-### Conditional
-
-<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=04"></iframe>
-
----
-
-### Conditional
-
-<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=05"></iframe>
-
----
-
-### Conditional
-
-<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=06"></iframe>
-
----
-
-### Conditional
-
-<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=07"></iframe>
-
----
-
-### Conditional
-
-<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=08"></iframe>
-
----
-
-### Conditional
-
-<iframe style="border: 1px solid #ddd; width: 100%; height: 400px" src="https://keraton.github.io/riot-meetup/tag/live-editor.html?number=09"></iframe>
 

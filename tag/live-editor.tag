@@ -3,7 +3,7 @@
   <!-- the empty line causes editor start from second line (on purpose) -->
   <section></section>
 
-  <iframe src="https://raw.githubusercontent.com/keraton/riot-meetup/master/tag/stage.html" ref="preview" scrolling="no"></iframe>
+  <iframe src="https://keraton.github.io/riot-meetup/tag/stage.html" ref="preview" scrolling="no"></iframe>
 
   <script>
     var self = this

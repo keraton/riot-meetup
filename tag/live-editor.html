@@ -8,7 +8,7 @@
   </head>
 
   <body style="background-color:#f7f7f7">
-    <live-editor src="https://keraton.github.io/riot-meetup/tag/features.tag?"></live-editor>
+    <live-editor></live-editor>
 
     <!-- riot tags -->
     <script type="riot/tag" src="https://keraton.github.io/riot-meetup/tag/live-editor.tag"></script>
@@ -16,7 +16,12 @@
     <!-- scripts we need -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.2/ace.js"></script>
     <script src="https://rawgit.com/riot/riot/master/riot%2Bcompiler.min.js"></script>
-    <script> riot.mount('live-editor') </script>
+    <script>
+        const url_string = window.location.href;
+        const url = new URL(url_string);
+        const number = url.searchParams.get("number");
+        riot.mount('live-editor', { src : "https://keraton.github.io/riot-meetup/tag/features-"+number+".tag?" })
+    </script>
   </body>
 
 </html>

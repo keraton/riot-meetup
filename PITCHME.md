@@ -1,6 +1,6 @@
 @title[Riot]
 
-(https://riot.js.org/img/logo/riot240x.png)
+![logo](https://riot.js.org/img/logo/riot240x.png)
 #### Bowie Brotosumpeno
 
 ---

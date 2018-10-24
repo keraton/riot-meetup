@@ -56,13 +56,10 @@
 ![logo](https://github.com/keraton/riot-meetup/blob/master/npm-download.png?raw=true)
 
 ---
-@title[Code Delimiter Syntax]
 
-### Code-Delimiter Slides
+### Encore une nouvelle librairie ?
 
-```
-                  ---?code=path/to/source.file
-```
+![logo](https://github.com/keraton/riot-meetup/blob/master/new_lib_again.png?raw=true)
 
 #### The Basics
 
